@@ -41,7 +41,7 @@ class TestLLMs:
             self.models = config["models"]
         else:
             response = self.client.list()
-            self.models = [m['name'] for m in response['models']]
+            self.models = [m.model for m in response.models]
         
         # Define tools schema for function calling (used when tools=True)
         self.tools = [
@@ -195,12 +195,12 @@ Given these metrics and the current macroeconomic conditions in February 2026, s
 
 if __name__ == "__main__":
     config = {
-        "models": ["llama2:latest"], # Specify models to test; empty list means all available models
-        "reasoning": True,   # Q1: Explain complex system design
-        "code": True,       # Q2: Code generation
+        "models": [], # Specify models to test; empty list means all available models
+        "reasoning": False,   # Q1: Explain complex system design
+        "code": False,       # Q2: Code generation
         "tools": True,      # Q3: Tool calling
         "finance": True,     # Q4: Finance analysis
-        "stream": True       # Q5: Streaming response
+        "stream": False       # Q5: Streaming response
     }
     
     # Print enabled tests, redirect outputs to log file if needed 
