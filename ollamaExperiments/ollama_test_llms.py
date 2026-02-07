@@ -1,4 +1,6 @@
 import time
+import platform
+import subprocess
 from ollama import Client
 
 # Specs:
@@ -10,6 +12,7 @@ from ollama import Client
 # - If "code" is flagged, test the model's ability to generate correct code
 # - If "finance" is flagged, test the model's ability to answer finance-related questions
 # - If "stream" is flagged, test streaming responses with real-time token generation
+# - If "security" is flagged, test the model's ability to identify blockchain/smart contract vulnerabilities
 
 """redirect outputs to log file if needed 
     python ollama_test_llms.py > ollama_test_llms.log 2>&1
@@ -184,23 +187,115 @@ Given these metrics and the current macroeconomic conditions in February 2026, s
         else:
             print("Q5 Streaming: SKIPPED")
 
+        # Question 6: Security vulnerability analysis (if enabled)
+        if self.config.get("security"):
+            q6 = """Find the security vulnerability in this Solidity contract and explain how to fix it:
+
+```solidity
+contract Vault {
+    mapping(address => uint256) public balances;
+    mapping(address => bool) public hasWithdrawn;
+    
+    function deposit() external payable {
+        balances[msg.sender] += msg.value;
+    }
+    
+    function withdraw(uint256 amount) external {
+        require(balances[msg.sender] >= amount, "Insufficient balance");
+        require(!hasWithdrawn[msg.sender], "Already withdrawn");
+        
+        (bool success, ) = msg.sender.call{value: amount}("");
+        require(success, "Transfer failed");
+        
+        balances[msg.sender] -= amount;
+        hasWithdrawn[msg.sender] = true;
+    }
+}
+```
+
+Identify: vulnerability type and exploit method if exists."""
+            t0 = time.time()
+            r6 = self.client.chat(model=model, messages=[{"role": "user", "content": q6}], stream=False)
+            t6 = time.time() - t0
+            print(f"Q6 Security ({t6:.2f}s): {r6['message']['content'][:200]}...")
+        else:
+            print("Q6 Security: SKIPPED")
+
     def run_all(self):
         """Run tests on all configured models."""
+        start_time = time.time()
+        results = {"success": 0, "failed": 0}
+        
         for model in self.models:
             try:
                 self.test_model(model)
+                results["success"] += 1
             except Exception as e:
                 print(f"{model}: ERROR - {e}")
+                results["failed"] += 1
+        
+        total_time = time.time() - start_time
+        self._print_summary(results, total_time)
+    
+    def _print_summary(self, results, total_time):
+        """Print final summary with system info."""
+        print("\n" + "="*60)
+        print("SUMMARY REPORT")
+        print("="*60)
+        print(f"Total models tested: {results['success'] + results['failed']}")
+        print(f"Successful: {results['success']}")
+        print(f"Failed: {results['failed']}")
+        print(f"Total execution time: {total_time:.2f}s")
+        
+        print("\n" + "-"*60)
+        print("SYSTEM INFORMATION")
+        print("-"*60)
+        print(f"OS: {platform.system()} {platform.release()}")
+        print(f"Architecture: {platform.machine()}")
+        print(f"Python: {platform.python_version()}")
+        
+        # RAM info
+        try:
+            import psutil
+            mem = psutil.virtual_memory()
+            print(f"RAM: {mem.total / (1024**3):.1f} GB (Available: {mem.available / (1024**3):.1f} GB)")
+        except ImportError:
+            try:
+                result = subprocess.run(['free', '-h'], capture_output=True, text=True, timeout=2)
+                lines = result.stdout.split('\n')
+                if len(lines) > 1:
+                    mem_line = lines[1].split()
+                    print(f"RAM: {mem_line[1]} (Available: {mem_line[6]})")
+            except:
+                print("RAM: Unable to detect")
+        
+        # GPU info
+        try:
+            result = subprocess.run(['nvidia-smi', '--query-gpu=name,memory.total', '--format=csv,noheader'], 
+                                    capture_output=True, text=True, timeout=2)
+            if result.returncode == 0 and result.stdout.strip():
+                gpus = result.stdout.strip().split('\n')
+                for i, gpu in enumerate(gpus, 1):
+                    print(f"GPU {i}: {gpu}")
+            else:
+                print("GPU: No NVIDIA GPU detected")
+        except FileNotFoundError:
+            print("GPU: nvidia-smi not found (no NVIDIA GPU or drivers)")
+        except Exception as e:
+            print(f"GPU: Unable to detect ({e})")
+        
+        print("="*60)
 
 
 if __name__ == "__main__":
     config = {
-        "models": [], # Specify models to test; empty list means all available models
+        "models": ["phi3:3.8b"], # Specify models to test; empty list means all available models
         "reasoning": False,   # Q1: Explain complex system design
-        "code": False,       # Q2: Code generation
-        "tools": True,      # Q3: Tool calling
-        "finance": True,     # Q4: Finance analysis
-        "stream": False       # Q5: Streaming response
+        "code": False,        # Q2: Code generation
+        "tools": False,       # Q3: Tool calling
+        "finance": False,     # Q4: Finance analysis
+        "stream": False,      # Q5: Streaming response
+        "security": True      # Q6: Smart contract security vulnerability analysis
     }
     
     # Print enabled tests, redirect outputs to log file if needed 
