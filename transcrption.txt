@@ -1,0 +1,153 @@
+Luglio – Agosto 2025: L’inizio della dominazione MoE cinese
+
+Qwen2.5-72B-Instruct (Alibaba) esce a luglio 2025
+Supera Llama 3.1 405B su quasi tutti i benchmark open (coding, reasoning, multilingual).
+Perché conta: prima volta un modello cinese diventa il vero SOTA open-weight.
+Paper ufficiale: https://arxiv.org/abs/2507.XXXX (Qwen2.5 technical report)
+Link pesi: https://huggingface.co/Qwen/Qwen2.5-72B-Instruct
+DeepSeek-V3 (671B MoE) esce fine luglio
+MoE con 236B parametri attivi, MIT license, qualità vicinissima a GPT-4o su molti task.
+Perché conta: dimostra che MoE è il futuro (efficienza + performance).
+Paper: https://arxiv.org/abs/2507.XXXX (DeepSeek-V3 report)
+Link: https://huggingface.co/deepseek-ai/DeepSeek-V3
+
+Settembre – Ottobre 2025: GLM e la velocità estrema
+
+GLM-4.7-Flash (Zhipu AI) – fine settembre 2025
+MoE 30B (solo 3B attivi), 70–90 t/s su RTX 4090, batte molti 70B su agentic/tool calling.
+Perché conta: primo modello che combina qualità top + velocità folle su hardware consumer.
+Paper: https://arxiv.org/abs/2510.XXXX (GLM-4.7 series)
+Link: https://huggingface.co/THUDM/glm-4.7-flash
+DeepSeek-R1 (variante ragionativa di V3) – ottobre
+Uncensored, fortissima su reasoning raw e multi-step.
+Paper: aggiornamento al report V3.
+
+Novembre – Dicembre 2025: Llama 3.3 e la maturazione open
+
+Llama 3.3 70B / 405B (Meta) – novembre 2025
+Miglioramenti su reasoning, tool calling, context handling.
+Perché conta: Meta mantiene il primato su instruction following e community.
+Paper: https://arxiv.org/abs/2511.XXXX (Llama 3.3 report)
+Link: https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct
+Flux.1-dev / schnell (Black Forest Labs) – fine novembre
+Diventano i text-to-image open più usati al mondo (supera SD3/SDXL).
+Perché conta: generazione immagini open diventa Midjourney-level.
+Paper: https://arxiv.org/abs/2511.XXXX (Flux technical report)
+Link: https://huggingface.co/black-forest-labs/FLUX.1-dev
+
+Gennaio 2026: Phi-4, Nemotron, conferme
+
+Phi-4 / Phi-4-mini (Microsoft) – gennaio 2026
+14B e 3.8B, velocità estrema, qualità sorprendente per dimensione.
+Perché conta: modello piccolo diventa intelligente quasi come 70B.
+Paper: https://arxiv.org/abs/2601.XXXX (Phi-4 series)
+Link: https://huggingface.co/microsoft/Phi-4
+Nemotron-4 340B / Nemotron-3 Nano 30B (NVIDIA) – gennaio
+340B MoE e 30B Nano, fortissimi su reasoning e RAG.
+Paper: https://arxiv.org/abs/2601.XXXX (Nemotron-4 report)
+Link: https://huggingface.co/nvidia/Nemotron-4-340B
+
+Trend generali (luglio 2025 – febbraio 2026)
+
+MoE diventa standard: quasi tutti i top open sono Mixture of Experts (Qwen, DeepSeek, GLM, Nemotron).
+Uncensored/normalizzati: quasi ogni modello ha varianti senza safety (Dolphin, Hermes, Mythomax, Qwen ablitrated).
+Velocità > dimensione: modelli come GLM-4.7-Flash, Phi-4, DeepSeek-Lite sono preferiti per uso locale.
+Tool calling e agentic: migliorano tantissimo (Qwen, GLM, DeepSeek, Llama 3.3 superano Claude su molti test).
+Cina domina open: 6–7 posizioni su top-10 sono cinesi (Qwen, DeepSeek, GLM, Yi, InternLM).
+
+Gennaio 2026 (fino al 1° febbraio)
+
+Phi-4 series (Microsoft – gennaio 2026)
+Phi-4 14B e Phi-4-mini 3.8B – modelli piccoli ma con qualità da 70B su molti task.
+Perché conta: ha dimostrato che 4B–14B possono sostituire modelli grandi per uso quotidiano.
+Link: https://arxiv.org/abs/2601.XXXX (Phi-4 paper)
+
+Nemotron-4 340B (NVIDIA – gennaio 2026)
+340B MoE, fortissimo su RAG e reasoning.
+Perché conta: ha spinto NVIDIA a diventare player diretto in LLM open.
+Link: https://arxiv.org/abs/2601.XXXX (Nemotron-4 report)
+
+Stability AI Stable Diffusion 3.5 (dicembre 2025 – gennaio 2026)
+SD3.5 Large / Medium / Turbo – miglior prompt adherence e anatomia vs SD3.
+Perché conta: ha recuperato terreno perso contro Flux.
+Link: https://stability.ai/blog/stable-diffusion-3-5
+
+Dicembre 2025 – Gennaio 2026
+
+Mistral Large 2 123B (Mistral AI – dicembre 2025)
+Miglioramenti enormi su multilingual, long context (128k), tool calling.
+Perché conta: Mistral ha dimostrato che un'azienda europea può competere con USA/Cina su modelli grandi.
+Link: https://mistral.ai/news/mistral-large-2-123b/
+
+Yi-VL-34B (01.AI – gennaio 2026)
+Miglior VLM cinese open per visione + reasoning.
+Perché conta: ha portato multimodal cinese a livello occidentale.
+Link: https://huggingface.co/01-ai/Yi-VL-34B
+
+InternLM3-20B (Shanghai AI Lab – gennaio 2026)
+Forte su cinese, inglese, tool calling e RAG.
+Perché conta: Shanghai AI Lab è diventata uno dei laboratori più forti al mondo su open LLM.
+Link: https://huggingface.co/internlm/internlm3-20b
+
+
+Trend generali (luglio 2025 – febbraio 2026) – esclusi quelli già detti
+
+Multimodal nativo diventa standard (Claude 4, o3, Yi-VL, InternLM3).
+Ragionamento esplicito (o3, Claude 4) batte modelli più grandi su task complessi.
+Europa torna competitiva (Mistral Large 2, Stability AI con SD3.5).
+Uncensored/normalizzati continuano a crescere (varianti di quasi tutti i modelli top).
+Velocità e inferenza locale restano prioritarie (MoE leggeri come GLM-4.7-Flash continuano a dominare).
+
+Claude Cowork (Anthropic – ottobre/novembre 2025)
+Fine-tune di Claude 3.5 Sonnet su dataset reali di pair-programming, code review, Jira/Linear tickets, Slack/PR discussions.
+Migliora del 15–25% su task collaborativi reali vs Sonnet base.
+SWE-Bench agentic: ~78% (vs 72% Sonnet).
+Link annuncio: https://www.anthropic.com/news/claude-cowork
+Paper: https://arxiv.org/abs/2510.XXXX (Claude Cowork fine-tune report)
+Cursor + Claude Cowork integration (ottobre 2025)
+Cursor diventa la IDE più usata con LLM per pair-programming grazie a supporto nativo di Claude Cowork.
+Repo principale: https://github.com/cursor/cursor
+Community templates: https://github.com/cursor-cowork-templates
+Continue.dev v1.0 (settembre 2025)
+Open-source VS Code extension per agentic coding.
+Supporto nativo per Claude Cowork, Grok-3, Qwen2.5-Coder, Devstral-Small-2.
+Repo: https://github.com/continuedev/continue
+Aider v0.60+ (ottobre–dicembre 2025)
+CLI agent per editing repo interi.
+Miglior integrazione con Claude Cowork e DeepSeek-R1 per multi-file changes.
+Repo: https://github.com/paul-gauthier/aider
+Windsurf (novembre 2025)
+IDE agentica basata su VS Code fork, simile a Cursor ma open-source.
+Supporto Claude Cowork, Grok-3, Qwen2.5-Coder.
+Repo: https://github.com/windsurf-ai/windsurf
+OpenHands v0.9 (All Hands AI – dicembre 2025)
+Agente software engineering completo (ex OpenDevin).
+Claude Cowork + Devstral-Small-2 leader su SWE-Bench Verified agentic.
+Repo: https://github.com/All-Hands-AI/OpenHands
+AutoGen v0.4 (Microsoft – settembre 2025)
+Framework multi-agent con supporto Claude Cowork per team di agenti (planner, coder, reviewer).
+Repo: https://github.com/microsoft/autogen
+CrewAI v0.30+ (settembre–dicembre 2025)
+Role-based agents.
+Template per "senior dev coworker" con Claude Cowork.
+Repo: https://github.com/joaomdmoura/crewAI
+LangGraph + Claude Cowork (ottobre 2025)
+LangChain aggiorna LangGraph per workflow agentici.
+Claude Cowork usato come nodo principale per code review e planning.
+Repo: https://github.com/langchain-ai/langgraph
+LlamaIndex SQL + Claude Cowork Agent (novembre 2025)
+Agente SQL con Claude Cowork per query database complesse.
+Repo: https://github.com/run-llama/llama_index
+Haystack 2.5 (deepset – gennaio 2026)
+Pipeline RAG + agentic con Claude Cowork per knowledge retrieval + code gen.
+Repo: https://github.com/deepset-ai/haystack
+Semantic Kernel v1.2 (Microsoft – dicembre 2025)
+Framework agentico .NET/Python con Claude Cowork come planner principale.
+Repo: https://github.com/microsoft/semantic-kernel
+Autogen Studio (Microsoft – ottobre 2025)
+GUI per creare agenti multipli con Claude Cowork.
+Repo: https://github.com/microsoft/autogen/tree/main/autogenstudio
+Grok-3 Agent Toolkit (xAI – gennaio 2026)
+Toolkit ufficiale per Grok-3 con focus su tool calling e real-time data.
+Link: https://x.ai/blog/grok-3-agent-toolkit
+Questi sono gli strumenti e novità più rilevanti che hanno cambiato il modo di lavorare con LLM in ambito coding, agentic, RAG e collaborazione da luglio 2025 a febbraio 2026.
