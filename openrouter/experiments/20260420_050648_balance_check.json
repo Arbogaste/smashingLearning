@@ -1,0 +1,39 @@
+[
+    {
+        "key_name": "OPENROUTER_KEY1",
+        "timestamp": "2026-04-20T05:06:48.147440",
+        "status": "ERROR",
+        "error": "{\"error\":{\"message\":\"User not found.\",\"code\":401}}",
+        "status_code": 401
+    },
+    {
+        "key_name": "OPENROUTER_KEY2",
+        "timestamp": "2026-04-20T05:06:48.448110",
+        "status": "OK",
+        "data": {
+            "label": "sk-or-v1-228...e58",
+            "is_management_key": false,
+            "is_provisioning_key": false,
+            "limit": null,
+            "limit_reset": null,
+            "limit_remaining": null,
+            "include_byok_in_limit": false,
+            "usage": 0.00436882,
+            "usage_daily": 0,
+            "usage_weekly": 0,
+            "usage_monthly": 0,
+            "byok_usage": 0,
+            "byok_usage_daily": 0,
+            "byok_usage_weekly": 0,
+            "byok_usage_monthly": 0,
+            "is_free_tier": false,
+            "expires_at": null,
+            "creator_user_id": "user_2vafm514bxSz3tKIdf5NU8y4ios",
+            "rate_limit": {
+                "requests": -1,
+                "interval": "10s",
+                "note": "This field is deprecated and safe to ignore."
+            }
+        }
+    }
+]

@@ -1,0 +1,800 @@
+{
+    "nexusriot/Qwen3.5-Uncensored-HauhauCS-Aggressive:4b": [
+        {
+            "name": "reasoning:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "code:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "finance:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "stream:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "security:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "tools:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "erotic:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "reasoning:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "code:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "finance:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "stream:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "security:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "tools:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "erotic:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        }
+    ],
+    "MistaaB/SpicyMorph:latest": [
+        {
+            "name": "reasoning:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "code:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "finance:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "stream:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "security:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "tools:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "erotic:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "reasoning:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "code:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "finance:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "stream:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "security:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "tools:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "erotic:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        }
+    ],
+    "felcon/qwen-pentest:latest": [
+        {
+            "name": "reasoning:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "code:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "finance:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "stream:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "security:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "tools:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "erotic:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "reasoning:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "code:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "finance:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "stream:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "security:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "tools:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "erotic:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        }
+    ],
+    "guzesqdro/zyx-ai:2b": [
+        {
+            "name": "reasoning:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "code:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "finance:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "stream:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "security:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "tools:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "erotic:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "reasoning:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "code:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "finance:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "stream:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "security:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "tools:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "erotic:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        }
+    ],
+    "frankarenakc/hermes-3-uncensored:latest": [
+        {
+            "name": "reasoning:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "code:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "finance:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "stream:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "security:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "tools:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "erotic:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "reasoning:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "code:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "finance:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "stream:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "security:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "tools:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "erotic:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        }
+    ],
+    "gemma4:e2b": [
+        {
+            "name": "reasoning:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "code:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "finance:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "stream:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "security:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "tools:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "erotic:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "reasoning:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "code:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "finance:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "stream:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "security:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "tools:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "erotic:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        }
+    ],
+    "nexusriot/Gemma-4-Uncensored-HauhauCS-Aggressive:e2b": [
+        {
+            "name": "reasoning:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "code:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "finance:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "stream:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "security:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "tools:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "erotic:F",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "reasoning:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "code:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "finance:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "stream:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "security:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "tools:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        },
+        {
+            "name": "erotic:T",
+            "passed": false,
+            "skipped": true,
+            "time_ms": 0.0,
+            "details": "",
+            "full_response": ""
+        }
+    ]
+}
