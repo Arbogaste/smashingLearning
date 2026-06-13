@@ -6,7 +6,7 @@ __pycache__/
 # C extensions
 *.so
 .secret/
-
+macOSExamples/
 # Distribution / packaging
 .Python
 build/
