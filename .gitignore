@@ -3,6 +3,9 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+ds4/
+llm_deploy/
+
 # C extensions
 *.so
 .secret/
