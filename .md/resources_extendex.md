@@ -305,3 +305,106 @@
 | Windmill | Workflow Engine | Open-source developer platform for scripts and flows | https://www.windmill.dev/ |
 | Apache Airflow | Workflow Orchestration | Platform to programmatically author, schedule, monitor workflows | https://airflow.apache.org/ |
 | Prefect | Workflow Orchestration | Modern workflow orchestration with Python-first design | https://www.prefect.io/ |
+
+
+| Agno | Agent Framework | Multi-agent framework  | https://github.com/agno-agi/agno |
+| ds4 | Local LLM Inference | DeepSeek quantized inference, SSD-streaming https://github.com/antirez/ds4 |
+| Headroom | LLM Context | AI context compression  | https://github.com/chopratejas/headroom |
+| Mixamo | 3D Rigging/Anim | Personaggi già riggati + libreria animazioni combat, gratis | https://www.mixamo.com |
+| VRoid Studio | 3D Character | Crea personaggi anime custom, export VRM, gratis | https://vroid.com/en/studio |
+| PixAI | Image Gen | Generazione immagini anime/character, free tier | https://pixai.art |
+| AccuRig | 3D Rigging | Auto-rigging gratuito (Reallusion ActorCore) | https://actorcore.reallusion.com/auto-rig |
+| RetopoFlow | 3D Modeling | Addon Blender per retopology assistita | https://github.com/CGCookie/retopoflow |
+| Blender | 3D Suite | Modellazione/rig/anim/render open-source | https://www.blender.org |
+| Quaternius | 3D Assets | Modelli 3D CC0 gratis per giochi | https://quaternius.com |
+| KayKit | 3D Assets | Asset game CC0 low-poly | https://kaylousberg.com |
+| Sketchfab | 3D Assets | Marketplace 3D (filtro rigged + CC0) | https://sketchfab.com |
+| Remotion | Video (code) | Video programmatici in React | https://github.com/remotion-dev/remotion |
+| Higgsfield | AI Video | Generazione video AI (motion/camera) | https://higgsfield.ai |
+| Stirling PDF | PDF | Edit/merge/split/convert PDF self-hosted privato | https://github.com/Stirling-Tools/Stirling-PDF |
+| Browser Use | Browser Agent | Agenti AI che navigano siti | https://github.com/browser-use/browser-use |
+| Maxun | Scraping (no-code) | Scrape siti senza codice | https://github.com/getmaxun/maxun |
+| Camoufox | Anti-detect Browser | Firefox stealth per automazione | https://github.com/daijro/camoufox |
+| OpenWA | WhatsApp API | API WhatsApp open-source (da ideesparse/games/plan) | https://github.com/rmyndharis/OpenWA |
+| NocoDB | Database/no-code | Alt Airtable open-source su DB proprio | https://github.com/nocodb/nocodb |
+| Baserow | Database/no-code | Alt Airtable self-host/free tier | https://baserow.io |
+| AppFlowy | Docs/workspace | Alt Notion open-source | https://appflowy.io |
+| Anytype | Docs/workspace | Alt Notion local-first | https://anytype.io |
+| Penpot | Design | Alt Figma open-source (self-host) | https://penpot.app |
+| Meilisearch | Search | Search engine veloce open-source | https://www.meilisearch.com |
+| Typesense | Search | Alt Algolia open-source | https://typesense.org |
+| Keycloak | Auth/Identity | Alt Auth0 enterprise open-source | https://www.keycloak.org |
+| Mattermost | Team Chat | Alt Slack self-host | https://mattermost.com |
+| Rocket.Chat | Team Chat | Chat team open-source | https://rocket.chat |
+| Nextcloud | File Storage | Alt Dropbox/Drive self-host | https://nextcloud.com |
+| Vaultwarden | Password Mgr | Server Bitwarden leggero self-host | https://github.com/dani-garcia/vaultwarden |
+| Jitsi Meet | Video Calls | Alt Zoom open-source | https://jitsi.org |
+| EspoCRM | CRM | CRM open-source self-host | https://www.espocrm.com |
+| Twenty | CRM | CRM open-source moderno | https://twenty.com |
+| Vikunja | Project Mgmt | Task/list self-host | https://vikunja.io |
+| Planka | Project Mgmt | Kanban open-source | https://planka.app |
+| Focalboard | Project Mgmt | Boards open-source (Mattermost) | https://www.focalboard.com |
+| Hoppscotch | API Tooling | Alt Postman open-source | https://hoppscotch.io |
+| DaVinci Resolve | Video Editing | Editing pro, versione free potente | https://www.blackmagicdesign.com/products/davinciresolve |
+| Photopea | Image Editing | Alt Photoshop web (apre PSD), gratis | https://www.photopea.com |
+| Grafana | Observability | Dashboard/metriche open-source | https://grafana.com |
+| Prometheus | Observability | Monitoring/metriche open-source | https://prometheus.io |
+| LanguageTool | Writing | Alt Grammarly open-source | https://languagetool.org |
+
+
+| exo | Local LLM Cluster | Esegui AI di frontiera in locale distribuito su più device | https://github.com/exo-explore/exo |
+| AutoAWQ | LLM Quantization | Quantizzazione 4-bit AWQ, 2x speedup | https://github.com/casper-hansen/AutoAWQ |
+| llama-cpp-turboquant | LLM Inference | Inference LLM C/C++ quantizzata | https://github.com/TheTom/llama-cpp-turboquant |
+| mlx-tune | Fine-tuning | Fine-tune LLM su Mac Apple Silicon (SFT/DPO/GRPO/Vision/TTS) | https://github.com/ARahim3/mlx-tune |
+| nanochat | LLM | ChatGPT minimale addestrabile con ~$100 (Karpathy) | https://github.com/karpathy/nanochat |
+| heretic | LLM Uncensor | Rimozione automatica censura dai modelli | https://github.com/p-e-w/heretic |
+| easy-dataset | LLM Data | Crea dataset per fine-tuning/RAG/eval | https://github.com/ConardLi/easy-dataset |
+| datapizza-ai | GenAI Framework | Soluzioni GenAI affidabili senza overhead | https://github.com/datapizza-labs/datapizza-ai |
+| promptfoo | LLM Testing | Test/red-team di prompt, agenti, RAG | https://github.com/promptfoo/promptfoo |
+| OpenViking | Agent Memory | Context DB auto-evolutivo per agenti (memoria/knowledge) | https://github.com/volcengine/OpenViking |
+| PixelRAG | RAG/Search | Ricerca pixel-native, fine del web parsing | https://github.com/StarTrail-org/PixelRAG |
+| agentseed | Agent Tooling | Genera AGENTS.md dal codebase in un comando | https://github.com/avinshe/agentseed |
+| system-prompts-and-models-of-ai-tools | Reference | System prompt di Cursor/Claude Code/Devin ecc. | https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools |
+| ds4 (llama.cpp deepseek-v4-flash) | Local Inference | DeepSeek v4 Flash in llama.cpp (antirez) | https://github.com/antirez/llama.cpp-deepseek-v4-flash |
+| qwen-asr | Speech-to-Text | Inference C per Qwen3-ASR 0.6b/1.7b | https://github.com/antirez/qwen-asr |
+| voxtral.c | Speech-to-Text | Inference C Mistral Voxtral Realtime 4B | https://github.com/antirez/voxtral.c |
+| gguf-tools | LLM Tooling | Libreria + CLI per GGUF in C | https://github.com/antirez/gguf-tools |
+| gte-pure-C | Embeddings | Inference C del modello GTE Small | https://github.com/antirez/gte-pure-C |
+| iris.c | Image Gen | Inference C pura del modello Flux 2 | https://github.com/antirez/iris.c |
+| botlib | Telegram Bot | Framework bot Telegram in C (antirez) | https://github.com/antirez/botlib |
+| whisperbot | Telegram/STT | Bot Telegram che trascrive audio via whisper.cpp | https://github.com/antirez/whisperbot |
+| stonky | Finance Bot | Bot Telegram mercato azionario (antirez) | https://github.com/antirez/stonky |
+| KittenTTS | TTS | Modello TTS SOTA sotto 25MB | https://github.com/KittenML/KittenTTS |
+| Qwen3-TTS | TTS | Serie TTS open-source del team Qwen | https://github.com/QwenLM/Qwen3-TTS |
+| openvino-plugins-ai-audacity | Audio | Effetti/generatori AI dentro Audacity | https://github.com/intel/openvino-plugins-ai-audacity |
+| esp-ai | Edge AI | Integrazione AI low-cost su ESP/edge | https://github.com/wangzongming/esp-ai |
+| MoneyPrinter | Video/YT | Automazione creazione YouTube Shorts (MoviePy) | https://github.com/FujiwaraChoki/MoneyPrinter |
+| hyperframes | Video (agents) | Scrivi HTML, renderizza video, per agenti | https://github.com/heygen-com/hyperframes |
+| VidBee | Video Download | Scarica video da quasi ogni sito | https://github.com/nexmoe/VidBee |
+| video-2-text | Video/Transcribe | Converte video in testo | https://github.com/XamHans/video-2-text |
+| aipdf | PDF/OCR | OCR PDF con modelli gen-AI (MindsDB) | https://github.com/mindsdb/aipdf |
+| Open-Generative-AI | Media Gen | Alt open-source non ristretta a piattaforme AI video/image | https://github.com/Anil-matcha/Open-Generative-AI |
+| awesome-nano-banana-pro-prompts | Prompt Library | 10k+ prompt curati Nano Banana Pro | https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts |
+| FinceptTerminal | Finance | Terminale finanza con analisi mercato avanzata | https://github.com/Fincept-Corporation/FinceptTerminal |
+| Vibe-Trading | Trading Agent | Agente di trading personale | https://github.com/HKUDS/Vibe-Trading |
+| open-alpha-arena | Trading | Paper trading AI (stile nof1 Alpha Arena, ccxt) | https://github.com/etrobot/open-alpha-arena |
+| nof1-tracker | Trading Signals | Traccia segnali agenti nof1.ai da CLI | https://github.com/terryso/nof1-tracker |
+| Price-Tracking-Web-Scraper | Scraping | Price tracker (Bright Data + Playwright) | https://github.com/techwithtim/Price-Tracking-Web-Scraper |
+| blueprint (TON) | Blockchain Dev | Tool all-in-one dev/test/deploy su TON | https://github.com/ton-org/blueprint |
+ripped.guide
+vert.sh
+anderro
+excalidraw.com
+goose
+deer-flow
+alternativeto.net
+librechat
+tesatana.ai
+sia
+immich
+papermark
+misty
+jellyfin
+tldraw
+documenso
+
